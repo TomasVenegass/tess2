@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background: url("../source/mundo.png");
+    margin: 0;
+}
+
+main {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    padding-top: 20vh;
+    padding-left: 30px;
+    width: 70vw;
+    height: 60vh;
+    border-radius: 0px 0px 250px 0px;
+    background-color: #1d1d1d;
+    flex-direction: column;
+    border-bottom: 2px solid #ff5220;
+    border-right: 2px solid #40c5fe;
+}
+/*
+.columna{
+    width: 50vw;
+    height: 100vh;
+    background: url("../source/fondoindex.png");
+}
+    */
+h1 {
+    color: #ffffff;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    width: 80px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+a:hover {
+    background-color: #333333;
+    color: #40c5fe;
+    border: 2px solid #40c5fe;
+}
+
+p{
+    color: #40c5fe;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escaneo de Patente Chilena</title>
+    <link rel="stylesheet" href="/css/camera.css">
+</head>
+<body>
+    <h1>Escanear Patente del Automóvil</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="capture">Capturar Foto</button>
+    <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+    <p id="output"></p>
+
+    <!-- Script de Tesseract.js para OCR -->
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.1/dist/tesseract.min.js"></script>
+    <!-- Scripts de funcionalidad -->
+    <script src="../js/camera-access.js"></script>
+    <script src="../js/image-capture.js"></script>
+    <script src="../js/ocr-handler.js"></script>
+</body>
+</html>
